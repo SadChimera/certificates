@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centipede {
+    padding: 1px;
+    position: absolute;
+    top: 100%;
+    right: 4%;
+} 
+
+.name1 {
+    font-size: 500%;
+    padding: 1px;
+    position: absolute;
+    top: 520%;
+    left: 44.1%;
+}
+.details1 {
+    font-size: 500%;
+    padding: 1px;
+    position: absolute;
+    top: 600%;
+    left: 43%;
+}
+.date1 {
+    font-size: 500%;
+    padding: 1px;
+    position: absolute;
+    top: 900%;
+    left: 44.5%;
+}
