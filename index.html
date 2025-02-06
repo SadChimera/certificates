@@ -17,13 +17,12 @@
     </header>
     <main>
         <div>
-            <input type="text" name="Name" class="question" id="name" required autocomplete="off"/>
-            <label for="name"><span>What's your name?</span></label>
-            <input type="submit" id="submitBTn" value="Get Certificate"/>
+            <input id="userInput">
+            <button> Get Certificate </button>
         </div>
     </main>
 
-    <img class="centipede" src="Mask group (1).png" alt="Centipede Certificate">
+    <img class="centipede" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
 
     <p class="name1">(Name)</p>
     <p class="details1">(Details)</p>
@@ -31,8 +30,12 @@
 
     </div>
 
-    <script src="filescript.js"></script>
-    <script src="script.js"></script>
+    <script>
+        function userName(){
+            var name = document.getElementById("name").value;
+            user.innerHTML = "Hello" + " " + name
+        }
+    </script>
 
 </body>
 </html>

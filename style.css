@@ -3,31 +3,35 @@
     text-align: center;
 }
 
+body {
+    background-color: #b8baad
+}
+
 .centipede {
     padding: 1px;
     position: absolute;
     top: 100%;
-    right: 4%;
+    right: 13%;
 } 
 
 .name1 {
-    font-size: 500%;
+    font-size: 400%;
     padding: 1px;
     position: absolute;
-    top: 520%;
-    left: 44.1%;
+    top: 410%;
+    left: 45%;
 }
 .details1 {
-    font-size: 500%;
+    font-size: 400%;
     padding: 1px;
     position: absolute;
-    top: 600%;
-    left: 43%;
+    top: 512%;
+    left: 44.5%;
 }
 .date1 {
-    font-size: 500%;
+    font-size: 400%;
     padding: 1px;
     position: absolute;
-    top: 900%;
-    left: 44.5%;
+    top: 760%;
+    left: 46%;
 }
