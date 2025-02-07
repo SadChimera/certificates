@@ -17,25 +17,34 @@
     </header>
     <main>
         <div>
-            <input id="userInput">
-            <button> Get Certificate </button>
+            <button class="button1"> Generate Certificate </button>
+            <button id="button2" onclick="changeImage();"> New Certificate </button>
         </div>
     </main>
 
-    <img class="centipede" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
+    <img class="centipede" id="centimg" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
 
     <p class="name1">(Name)</p>
     <p class="details1">(Details)</p>
-    <p class="date1">(Date)</p>
+    <p class="date1" id="demo">(Date)</p>
 
     </div>
 
+
+    
     <script>
-        function userName(){
-            var name = document.getElementById("name").value;
-            user.innerHTML = "Hello" + " " + name
-        }
+
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+
+        var name = prompt("What is your name?");
+        var num = prompt("Would you like to say anything?");
+        printLn(name);
+        printLn(num);
+
     </script>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
