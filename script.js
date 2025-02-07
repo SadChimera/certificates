@@ -1,9 +1,9 @@
 let myButton = document.querySelector("button");
 let myNName = document.querySelector("h3")
-let myDDate = document.querySelector("h3")
+let myDDate = document.querySelector("h4")
 
 function setUserName() {
-    const myName = prompt("Please enter your name. (It's recommended to refresh page after name.");
+    const myName = prompt("Please enter your name.");
     localStorage.setItem("name", myName);
     myNName.textContent = `${myName}`;
 }
@@ -23,4 +23,3 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
     setUserName();
 })
-

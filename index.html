@@ -18,24 +18,27 @@
     <main>
         <div>
             <button class="button1"> Generate Certificate </button>
-            <button id="button2"> New Certificate </button>
+            <button onclick="myFunction()"> New Certificate </button>
         </div>
     </main>
 
-    <img class="centipede" name="centimg" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
+    <img class="centipede" id="centimg" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
 
     <h3 class="name1">(Name)</h3>
-    <h4 class="details1">(Details)</h4>
     <p class="date1" id="demo">(Date)</p>
 
     </div>
 
 
     <script>
-
         const d = new Date();
         document.getElementById("demo").innerHTML = d;
 
+        function myFunction() {
+            document.getElementById("centimg").src = "Mask group (2).png";
+        }
+
+        
     </script>
 
     <script src="script.js"></script>

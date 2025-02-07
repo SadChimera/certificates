@@ -19,15 +19,9 @@ body {
     padding: 1px;
     position: absolute;
     top: 430%;
-    left: 45%;
+    left: 43.9%;
 }
-.details1 {
-    font-size: 400%;
-    padding: 1px;
-    position: absolute;
-    top: 512%;
-    left: 44.5%;
-}
+
 .date1 {
     font-size: 200%;
     padding: 1px;
@@ -35,3 +29,4 @@ body {
     top: 800%;
     left: 30%;
 }
+
