@@ -18,8 +18,9 @@ body {
     font-size: 400%;
     padding: 1px;
     position: absolute;
-    top: 410%;
+    top: 430%;
     left: 45%;
+    text-align: center;
 }
 .details1 {
     font-size: 400%;

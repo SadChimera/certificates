@@ -18,11 +18,11 @@
     <main>
         <div>
             <button class="button1"> Generate Certificate </button>
-            <button id="button2" onclick="changeImage();"> New Certificate </button>
+            <button id="button2"> New Certificate </button>
         </div>
     </main>
 
-    <img class="centipede" id="centimg" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
+    <img class="centipede" name="centimg" src="Mask group (1).png" alt="Centipede Certificate" height="1000">
 
     <p class="name1">(Name)</p>
     <p class="details1">(Details)</p>
@@ -31,16 +31,10 @@
     </div>
 
 
-    
     <script>
 
         const d = new Date();
         document.getElementById("demo").innerHTML = d;
-
-        var name = prompt("What is your name?");
-        var num = prompt("Would you like to say anything?");
-        printLn(name);
-        printLn(num);
 
     </script>
 
